@@ -1,19 +1,26 @@
 
-
-
-h1{
-	color:white;
-	font-family: Arial;
-	text-align: center;
-	
+@font-face{
+	font-family:Harbinger;
+	src:url(fonts/Harbinger-Caps.otf);
 }
-h2{
+
+img{
+	width:8%;
+}
+
+
+p{	
+	font-family:Harbinger;
 	color:white;
+	font-size: 20px;
+	text-align:center;
+}
+
+
+div{
+	text-align: center;
 }
 
 body{
 	background-color: black
-}
-div{
-	color:white;
 }
