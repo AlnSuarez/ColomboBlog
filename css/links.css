@@ -1,26 +1,14 @@
-
 /*esta es una tipografía nueva, Harbinger-Caps.otf*/
 @font-face{
 	font-family:Harbinger;
 	src:url(fonts/Harbinger-Caps.otf);
 }
 
-img{
-	width:10%;
-}
-
-
-nav{	
+header{
 	font-family:Harbinger;
 	color:white;
 	font-size: 200%;
 	text-align:center;
-}
-
-
-div{
-
-	text-align: center;
 }
 
 body{

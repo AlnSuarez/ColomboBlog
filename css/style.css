@@ -1,5 +1,4 @@
 
-/*esta es una tipografía nueva, Harbinger-Caps.otf*/
 @font-face{
 	font-family:Harbinger;
 	src:url(fonts/Harbinger-Caps.otf);
@@ -19,7 +18,7 @@ nav{
 
 
 div{
-
+	
 	text-align: center;
 }
 
