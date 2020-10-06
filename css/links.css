@@ -7,9 +7,13 @@
 header{
 	margin-top: 20px;
 	font-family:Harbinger;
-	color:white;
+	color:#000000;
 	font-size: 200%;
 	text-align:center;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	padding-top:2%;
+	padding-bottom: 2%;
 }
 
 
@@ -27,10 +31,26 @@ div{
 	border-radius: 10px;
 }
 
-.texto{
-	overflow: scroll;
+
+#barralateral{
+	width: 6%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	background-color:100%;
+	top:16%;
+	right:0;
+	overflow: auto;
 }
 
+#barralateral{
+	text-decoration: none;
+	color:#000000;
+}
+
+.texto{
+	overflow: auto;
+}
 
 .video1{
 	margin-bottom:10%;
@@ -38,6 +58,8 @@ div{
 
 
 body{
-	background-color: black;
+	background: rgb(44,148,235);
+background: linear-gradient(90deg, rgba(44,148,235,1) 0%, rgba(57,91,224,1) 44%, rgba(82,132,255,1) 100%);
+	padding-bottom:200em; 
 }
 
