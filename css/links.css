@@ -5,12 +5,39 @@
 }
 
 header{
+	margin-top: 20px;
 	font-family:Harbinger;
 	color:white;
 	font-size: 200%;
 	text-align:center;
 }
 
-body{
-	background-color: black
+
+div{
+	width:25%;
+	height:150px;
+	display:inline-block;
+	color:black;
+	float:left;
+	margin: 2%;
+	padding: 10px;
+	font-family: Harbinger;
+	text-align:center;
+	background-color: white;
+	border-radius: 10px;
 }
+
+.texto{
+	overflow: scroll;
+}
+
+
+.video1{
+	margin-bottom:10%;
+}
+
+
+body{
+	background-color: black;
+}
+
