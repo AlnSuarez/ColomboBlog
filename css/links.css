@@ -1,14 +1,14 @@
 /*esta es una tipografía nueva, Harbinger-Caps.otf*/
 @font-face{
-	font-family:Harbinger;
-	src:url(fonts/Harbinger-Caps.otf);
+	font-family:AlteHaas;
+	src:url(fonts/AlteHaasGroteskBold.ttf);
 }
 
 header{
 	margin-top: 20px;
 	margin-right:11%;
 	margin-left:2%;
-	font-family:Harbinger;
+	font-family:AlteHaas;
 	color:#000000;
 	font-size: 200%;
 	text-align:center;
@@ -16,12 +16,13 @@ header{
 	border-radius: 10px;
 	padding-top:2%;
 	padding-bottom: 2%;
+	text-transform:uppercase;
 }
 
 nav{
 	text-align: center;
 	margin-top: 2%;
-	font-family: Harbinger;
+	font-family: AlteHaas;
 	color:#FFFFFF;
 }
 
@@ -35,7 +36,7 @@ div{
 	float:left;
 	margin: 2%;
 	padding: 10px;
-	font-family: Harbinger;
+	font-family: AlteHaas;
 	text-align:center;
 	background-color: #FFFFFF;
 	border-radius: 10px;
