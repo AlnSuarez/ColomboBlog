@@ -16,8 +16,10 @@ nav{
 	font-size: 200%;
 	text-align:center;
 	text-decoration:none;
+	background-color: black;
 }
 
+/*text decoration es para quitarte el _ del link en cuestión*/
 a{
 	font-family:Harbinger;
 	color:white;

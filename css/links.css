@@ -6,6 +6,8 @@
 
 header{
 	margin-top: 20px;
+	margin-right:11%;
+	margin-left:2%;
 	font-family:Harbinger;
 	color:#000000;
 	font-size: 200%;
@@ -15,6 +17,14 @@ header{
 	padding-top:2%;
 	padding-bottom: 2%;
 }
+
+nav{
+	text-align: center;
+	margin-top: 2%;
+	font-family: Harbinger;
+	color:#FFFFFF;
+}
+
 
 
 div{
@@ -27,7 +37,7 @@ div{
 	padding: 10px;
 	font-family: Harbinger;
 	text-align:center;
-	background-color: white;
+	background-color: #FFFFFF;
 	border-radius: 10px;
 }
 
@@ -36,11 +46,13 @@ div{
 	width: 6%;
 	height: 100%;
 	display: block;
-	position: absolute;
+	position: fixed;
 	background-color:100%;
-	top:16%;
+	top:0%;
 	right:0;
 	overflow: auto;
+	padding:1%;
+	font-size: 100%;
 }
 
 #barralateral{
