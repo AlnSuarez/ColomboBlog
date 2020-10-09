@@ -37,10 +37,15 @@ a{
 	margin-right: 1%;
 	/* text-align: center; */
 	line-height: 250%;
+	/* transition-property: background;
+	 transition-duration: 0.5s; */
+	transition: 1s ease;
+
 }
 a:hover{
 	background-color: #808080;
 	color: #f9dbdb;
+	width: 16rem;
 }
 
 #spotifyblock{
