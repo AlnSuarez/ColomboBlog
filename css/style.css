@@ -16,22 +16,50 @@ nav{
 	font-size: 200%;
 	text-align:center;
 	text-decoration:none;
-	background-color: black;
+	
+	
 }
 
 /*text decoration es para quitarte el _ del link en cuestión*/
 a{
 	font-family:Harbinger;
-	color:white;
+	color:#000000;
 	text-align:center;
 	text-decoration:none;
+	background-color: #f9dbdb;
+	border-radius: 20px;
+	height: 5rem;
+	width: 15rem;
+	font-size: 100%;
+	margin-top: auto;
+	display: inline-block;
+	margin-left: 1%;
+	margin-right: 1%;
+	/* text-align: center; */
+	line-height: 250%;
+}
+a:hover{
+	background-color: #808080;
+	color: #f9dbdb;
 }
 
-div{
-
+#spotifyblock{
 	text-align: center;
 }
 
 body{
 	background-color: black
+}
+
+footer{
+	margin-top: 3%;
+}
+#textdiv{
+	text-align: center;
+}
+
+
+#textfooter{
+	color: #ffffff;
+	display: inline-block;
 }
