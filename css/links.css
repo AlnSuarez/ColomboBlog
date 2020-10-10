@@ -1,32 +1,55 @@
 /*esta es una tipografía nueva, Harbinger-Caps.otf*/
+
+
+
+/* Falta arreglar el espaciado entre contenido y nav */
 @font-face{
-	font-family:AlteHaas;
-	src:url(fonts/AlteHaasGroteskBold.ttf);
+	font-family:Harbinger;
+	src:url(fonts/Harbinger-Caps.otf);
 }
 html{
 	scroll-behavior: smooth;
 }
 
+
 header{
 	margin-top: 20px;
-	margin-right:11%;
+	margin-right:2%;
 	margin-left:2%;
-	font-family:AlteHaas;
-	color:#469ed9;
+	font-family:Harbinger;
+	color:#000000;
 	font-size: 200%;
 	text-align:center;
 	background-color: #ffffff;
-	border-radius: 10px;
+	border-radius: 10px 10px 0 0;
 	padding-top:2%;
 	padding-bottom: 2%;
 	text-transform:uppercase;
+	
+	
+
 }
 
 nav{
-	text-align: center;
-	margin-top: 2%;
-	font-family: AlteHaas;
-	color:#FFFFFF;
+	box-sizing: border-box;
+    background-color: #408080;
+    text-align: center;
+    margin-left: 2%;
+    float: left;
+    font-family: Harbinger;
+    color: #FFFFFF;
+   
+    margin-top: ;
+    width: 15%;
+    height: 100vh;
+	line-height: 4rem;
+}
+#contenido{
+	float: left;
+    width: 81%;
+    height: 100vh;
+	background-color: #aecfd2;
+	overflow: auto;
 }
 
 
@@ -36,46 +59,45 @@ div{
 	height:150px;
 	display:inline-block;
 	color:black;
-	float:left;
 	margin: 2%;
-	padding: 10px;
-	font-family: AlteHaas;
-	text-align:center;
+	padding: 2%;
+	font-family: Harbinger;
+	text-align:justify;
 	background-color: #FFFFFF;
 	border-radius: 10px;
+	transition: 0.7s ease;
+}
+div:hover{
+	color: #ffffff;
+	background-color: #aecfd2;
 }
 
-
-#barralateral{
-	width: 6%;
-	height: 100%;
-	display: block;
-	position: fixed;
-	background-color:100%;
-	top:0%;
-	right:0;
-	overflow: auto;
-	padding:1%;
-	font-size: 100%;
+.hidevideos{
+	overflow: hidden;
+}
+.videocenter{
+	/* margin-left:auto;
+	margin-right:auto; */
 }
 
-#barralateral{
-	text-decoration: none;
-	color:#000000;
-}
 
 .texto{
 	overflow: auto;
 }
 
-.video1{
-	margin-bottom:10%;
+
+
+div.video2{
+	margin: 30px 50%;
 }
 
 
+
 body{
-	background: rgb(44,148,235);
-background: linear-gradient(90deg, rgba(44,148,235,1) 0%, rgba(57,91,224,1) 44%, rgba(82,132,255,1) 100%);
-	padding-bottom:200em; 
+	background-color: #000000;
+}
+footer{
+	display: inline-block;
+	width: 20%;
 }
 
