@@ -39,17 +39,22 @@ nav{
     font-family: Harbinger;
     color: #FFFFFF;
    
-    margin-top: ;
+    margin-top: 0em;
     width: 15%;
     height: 100vh;
 	line-height: 4rem;
 }
 #contenido{
-	float: left;
+	display: block;
+	
     width: 81%;
     height: 100vh;
 	background-color: #aecfd2;
 	overflow: auto;
+}
+
+.linevideo{
+	display: flex;
 }
 
 

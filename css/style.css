@@ -49,11 +49,6 @@ a:hover{
 	width: 16rem;
 }
 
-button:active{
-	background-color: aqua;
-	color: #000000;
-
-}
 
 #spotifyblock{
 	text-align: center;
