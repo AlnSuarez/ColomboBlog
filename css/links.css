@@ -44,6 +44,17 @@ nav{
     height: 100vh;
 	line-height: 4rem;
 }
+.contenttitles{
+	display: flex;
+	margin-left: 35%;
+	font-family: Harbinger;
+	
+}
+p.contenttitles{
+	margin-left: 20%;
+	
+}
+
 #contenido{
 	display: block;
 	
