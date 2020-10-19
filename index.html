@@ -7,18 +7,21 @@
 	<script src ="js/interaction.js"></script>
 	<title>Colombo's Blog</title>
 	<link rel="icon" href="img/overthink.png" type="image/gif" sizes="16x16">
-	<div align="center"><img src="img/overthink.png" alt="Colombo's blog logo"></div>
-	<link rel="stylesheet" href="css/style.css">
-		 <!--Cuadro de navegación-->
-	 <nav>
-	 		<p> <a href="html/links.html" id="ejemplo" onclick="message('hi')">Curso CE</a> - 
-				<a href="" onclick="des()">M&uacute;sica</a> -
-				<a href="" id="buttonclose" onclick="des()"> Mis dibujitos</a>
-	 		</p>	
-	 </nav>
-
-<body>
 	
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+<body>
+	<div id="navegation">
+		<img src="img/overthink.png" alt="Colombo's blog logo">
+			<!--Cuadro de navegación-->
+		<nav>
+				<a href="html/links.html" id="ejemplo" onclick="message('hi')">Curso CE</a>  
+				<a href="" onclick="des()">M&uacute;sica</a> 
+				<a href="" onclick="des()"> Mis dibujitos</a>
+				
+		</nav>
+	</div>
 	<div id="spotifyblock">
 	<iframe src="https://open.spotify.com/embed/playlist/4hfyXwn0fdtZDtWhfDIfod"
 	 width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" align="center">
