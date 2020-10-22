@@ -14,19 +14,18 @@ img{
 
 #navegation{
 	display: flex;
-	background-color: #000000;
+	background-color: #597d82;
 	height: 8em;
 }
 
 nav{	
 	display: flex;
-	font-family:Harbinger;
 	color:white;
 	
 	width: 80%;
 	height: 90px;;
 	margin-top: 1%;
-	margin-left: 10% ;
+	margin-left: 15% ;
 
 
 	text-decoration:none;
@@ -37,10 +36,10 @@ nav{
 /*text decoration es para quitarte el _ del link en cuestión*/
 a{
 	font-family:Harbinger;
-	color:#000000;
+	color:#ffffff;
 	text-align:center;
 	text-decoration:none;
-	background-color: #f9dbdb;
+	background-color: #ffda60;
 	border-radius: 20px;
 	height: 2.5em;
 	width: 8em;
@@ -58,19 +57,20 @@ a{
 
 }
 a:hover{
-	background-color: #808080;
-	color: #f9dbdb;
+	background-color: #ff8040;
+	color: #ffffff;
 	width: 10em;
 }
 
 
 #spotifyblock{
 	margin-top: 10%;
-	text-align: center;
+	margin-left: 5%;
 }
 
 body{
-	background-color: #ffffff;
+	background-image: url("../img/webback.png");
+	background-size: 100%;
 	margin: 0%;
 }
 
@@ -80,6 +80,7 @@ footer{
 #textdiv{
 	text-align: center;
 }
+
 
 
 #textfooter{
