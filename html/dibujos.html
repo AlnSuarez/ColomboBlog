@@ -11,67 +11,86 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="navbar navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">
-        <img src="../img/overthink.png" width="60" height="60" alt="">
-      </a>
 
+    <nav class="navbar navbar-light" style="background-color: #d3d3d3;">
+      <a class="navbar-brand" href="#">
+        <img src="/img/overthink.png" width="50" height="50" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Música</a>
+          <a class="nav-item nav-link" href="#">OTROS</a>
+        </div>
+      </div>
     </nav>
 
     <div id="titulo">
-      Da clic a la derecha o izquierda de la imagen para cambiar
+       Portfolio.
     </div>
 
-    <!-- <div class="container">
-
-      <div class="row">
-          <div class="col-md-6 col-lg-3">
-            <div class="visible-xs visible-sm">Extra small screen</div>
-            <div class="visible-md">Medium screen</div>
-            <div class="visible-lg">Large screen</div>
+      <div id="gallery">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <!-- this is the carousel one-->
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="/img/campus-sustentable.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/illustration1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/niña.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- here starts other carousel -->
+            <div class="col-sm-4">
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/img/covidruinedmybday.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/cerealcolores.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/back.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="/img/illustration3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/playeratrasera.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/doggo.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="visible-xs visible-sm">Extra small screen</div>
-            <div class="visible-md">Medium screen</div>
-            <div class="visible-lg">Large screen</div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="visible-xs visible-sm">Extra small screen</div>
-            <div class="visible-md">Medium screen</div>
-            <div class="visible-lg">Large screen</div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="visible-xs visible-sm">Extra small screen</div>
-            <div class="visible-md">Medium screen</div>
-            <div class="visible-lg">Large screen</div>
-          </div>
+        </div>
       </div>
 
-    </div> -->
-
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="../img/overthink.png" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="../img/illustration1.jpg" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="../img/campus-sustentable.jpg" alt="Third slide">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+    <div id="redessociales">
+      <img src="/img/instagramlogo.png" alt="" id="foto1">
     </div>
 
-
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 
