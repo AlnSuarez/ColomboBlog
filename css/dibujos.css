@@ -1,7 +1,7 @@
 /*esta es una tipografía nueva, Harbinger-Caps.otf*/
 @font-face{
-	font-family:HelveticaBold;
-	src:url(../fonts/Helvetica-Bold-Font.ttf);
+	font-family:Akira;
+	src:url(../fonts/Akira.otf);
 }
 
 
@@ -9,13 +9,15 @@
 
     margin-left: 15%;
     font-size: 3em;
-    font-family: HelveticaBold;
+    font-family: Akira;
     margin-top: 1em;
     margin-bottom: 1em;
     color: #3a3a3a;
     
   }
   
+
+
   #redessociales{
     margin-top: 3em;
   }
