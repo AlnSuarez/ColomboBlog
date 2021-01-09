@@ -5,13 +5,11 @@
 	src:url(../fonts/Akira.otf);
 }
 
-#overthinklogo{
-	height: 6.5em;
-	margin-left: 4em;
-	margin-top: 0.5em;
-}
+
 
 #navegation{
+	position: sticky;
+	top: 0%;
 	display: flex;
 	background-color: #0c0c0c;
 	height: 5em;
@@ -32,8 +30,26 @@ nav{
 	
 }
 
+#bloque1{
+	height: 38em;
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(200,59,17,1) 100%);
+}
+#bloque2{
+	height: 38em;
+	background: rgb(200,59,17);
+	background: linear-gradient(180deg, rgba(200,59,17,1) 0%, rgba(59,140,249,1) 100%);
+	margin-top: 0%;
+}
+
+#alnsuarez{
+	height: 9em;
+	margin-left: 4em;
+	margin-top: 0.5em;
+}
+
 /*text decoration es para quitarte el _ del link en cuestión*/
-a{
+.titles{
 	font-family: Akira;
 	color:#ebebeb;
 	text-align:center;
@@ -57,7 +73,7 @@ a{
 
 }
 
-a:hover{
+.titles:hover{
 	color: #363636;
 }
 
@@ -65,12 +81,11 @@ a:hover{
 
 
 body{
-	background-color: #000000;
 	margin: 0%;
 }
 
 footer{
-	margin-top: 3%;
+	margin: 0;
 }
 #textdiv{
 	text-align: center;
@@ -91,32 +106,68 @@ h1{
 	margin-left: 17%;
 	color: #ebebeb;
 }
-p{
+.textblock1{
 	font-family: Akira;
 	margin-left: 17%;
 	color: #ebebeb;
 }
 
+#practices{
+	font-family: akira;
+	margin-top:0;
+	margin-left: 10%;
+	font-size: 3em;
+}
+
 #iglogo{
 	height: 3rem;
-	margin-left: 20%;
+	margin-left: 17%;
 	margin-top: 5%;
 }
-
-#wearfacemask{
+#colombo{
+	height: 3rem;
+}
+#behance{
+	height: 3rem;
+}
+#github{
+	height: 3rem;
+}
+#spartan{
 	position: absolute;
+	height: 35em;
+	right: 0%;
 	top: 20%;
-	left: 50%;
-	height: 65em;
-	/* display: none; */
-	/* clip-path: inset(0 0 1000px 1000px); */
+}
+#lineadevideos{
+	display: flex;
+}
+#youtubevideo1{
+	width: 40%;
+	margin-left: 10%;
+}
+#youtubevideo2{
+	width: 40%;
+	
 }
 
-@media screen and (max-width:1180px){
+#video1{
+	
+}
+
+.subtitlesvideos{
+	font-family: Akira;
+	font-size: 1em;
+	color: #ebebeb;
+	text-align: center;
+
+}
+
+@media screen and (max-width:1254px){
 	nav{
 		display: flex;
 	}
-	a{
+	.titles{
 		font-family:Akira;
 		color:#ffffff;
 		text-align:center;
@@ -137,6 +188,15 @@ p{
 		 transition-duration: 0.5s; */
 		transition: 1s ease;
 	
+	}
+
+	#alnsuarez{
+		height: 7em;
+		margin-left: 4em;
+		margin-top: 0.5em;
+	}
+	#spartan{
+		display: none;
 	}
 
 }
