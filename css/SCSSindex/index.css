@@ -1,0 +1,144 @@
+@font-face {
+  font-family: SKPupok;
+  src: url(/css/fonts/SK-Pupok-Solid-Demo.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+.allSections {
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+section {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  scroll-snap-align: start;
+}
+
+#section1 {
+  margin-top: 0;
+  background-color: #faebd7;
+}
+
+#section1 #myVideo {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+#section1 nav {
+  position: fixed;
+  margin-top: 1em;
+  text-align: center;
+  background-color: black;
+  border-radius: 50px;
+  width: 80%;
+  height: 20vh;
+  margin-left: 10%;
+  padding-left: 2%;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(67%, #5c5890), to(#2c5497));
+  background: linear-gradient(0deg, #5c5890 67%, #2c5497 100%);
+}
+
+#section1 nav #text {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#section1 nav img {
+  margin-top: 9%;
+  width: 50%;
+}
+
+#section1 nav p {
+  font-size: 200%;
+  margin: 0;
+  color: white;
+  margin-top: 3%;
+  font-family: SKPupok;
+  font-size: 3vw;
+  display: block;
+}
+
+#section1 nav a {
+  font-size: 1rem;
+  color: #ffffff;
+  margin: 0;
+  display: block;
+}
+
+#mainText {
+  background: #ffffff;
+  position: relative;
+  top: 30vh;
+  left: 10vh;
+  display: float;
+  width: 80vw;
+  height: 30vh;
+  border-radius: 50px;
+  text-align: center;
+}
+
+#svgButtonArriba {
+  position: fixed;
+  top: 65vh;
+  left: 90vw;
+}
+
+#svgButtonArriba :hover {
+  fill: white;
+  -webkit-transition: ease 0.25s;
+  transition: ease 0.25s;
+}
+
+#svgbutton {
+  position: fixed;
+  top: 80vh;
+  left: 90vw;
+}
+
+#svgbutton :hover {
+  fill: white;
+  -webkit-transition: ease 0.25s;
+  transition: ease 0.25s;
+}
+
+#skill-set {
+  display: inline-block;
+  background-color: white;
+  width: 100vw;
+  height: 30vh;
+  margin-top: 30vh;
+}
+
+#textoSkillset {
+  display: block;
+  width: 100vw;
+  height: 10vh;
+  margin-top: 30vh;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#section2 {
+  background-color: #A71D31;
+}
+
+#section3 {
+  background-color: orange;
+}
+/*# sourceMappingURL=index.css.map */

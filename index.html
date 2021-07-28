@@ -1,81 +1,131 @@
 <!DOCTYPE html>
 
-<html lang = "en">	
+<html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
-	<script src ="js/interaction.js"></script>
+	<script src="/js/interaction.js"></script>
 	<title>Colombo's Blog</title>
 	<link rel="icon" href="img/overthink.png" type="image/gif" sizes="16x16">
-	
-	<link rel="stylesheet" href="css/style.css">
 
-	<img src="img/spartan.png" id="spartan">
-	<div id="navegation">
-		<img src="img/yo.png" id="alnsuarez">
-			<!--Cuadro de navegación-->
-		<nav>
-				<a href="html/links.html" class="titles" onclick="message('hi')">moocs</a>  
-				 
-				<a href="html/portfolio.html" class="titles"> portfolio</a>
-				
+	<link rel="stylesheet" href="./css/SCSSindex/index.css">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-				<button id="boton" onclick="changeColor();">light mode</button>
-		</nav>
-	</div>
-	
+
+
+
 </head>
 
 
 <body>
-	<!-- EL BLOQUE 1 DE PRESENTACIÓN -->
-	<div id="bloque1">
-		<div id="nombre">
-			<h1>HELLO</h1>
-		</div>
+	<div class="allSections">
+		<!-- EL BLOQUE 1 DE PRESENTACIÓN -->
 
-		<p class="textblock1">		My name is Alan Su&aacute;rez.<br>
-				<br>
-				this is my personal portfolio, here<br>
-				i will post my work
-				<br>
-				<br>
-				im an engeneer in Digital Systems and<br>
-				Robotics
-		</p>
-			
-		<div id="icons">	
-			<a href="https://www.instagram.com/alnsuarez/"><img src="img/igwhite.png" id="iglogo"></a>
-			<a href="https://www.instagram.com/colomboclothes/"><img src="img/logo3.png" id="colombo"></a>
-			<a href="https://www.behance.net/alansuarez1"><img src="img/behance-icon.png" id="behance"></a>
-			<a href="https://github.com/AlnSuarez"><img src="img/gitbuh.png" id="github"></a>
-		</div>
-		
+		<section class="division" id="section1">
+			<nav>
+				<div class="row">
+					<div class="col-lg-3 col-md-4">
+						<img class="img-responsive" id="fotoDePerfil" src="./img/yo.png" alt="alternatetext">
+					</div>
+					<div class="col-lg-8 col-md-7" id="text">
+						<p>Alan Suarez</p>
+						<a>Digital Systems & Robotics Engineer / Web Developer</a>
+					</div>
+				</div>
+			</nav>
 
-		 
-	</div>
-	<!-- BLOQUE 2 DE OTRAS COSAS -->
-	<div id="bloque2">
-		
-		<p id="practices"> Practices i've done.</p>
-		<!-- <div id="lineadevideos">
-			<div id="youtubevideo1">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/rARfFfFCi0k" frameborder="0" 
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-				allowfullscreen id="video1"></iframe>
-				
+			<div id="mainText">
+				<p>Hi, i am currently studying Digital Systems and Robotics Engineering</p>
 			</div>
-			
-		</div> -->
 
 	</div>
-	
+
+	<div id="svgButtonArriba">
+		<?xml version="1.0" encoding="UTF-8"?>
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50%"
+			viewBox="0 0 810 809.999993" version="1.2" onclick="goUp()">
+			<g id="surface1">
+				<path style=" stroke:none;fill-rule:nonzero;fill-opacity:1;"
+					d="M 0 405 C 0 181.320312 181.320312 0 405 0 C 628.679688 0 810 181.320312 810 405 C 810 628.679688 628.679688 810 405 810 C 181.320312 810 0 628.679688 0 405 Z M 607.5 526.5 L 607.5 405 L 405 243 L 202.5 405 L 202.5 526.5 L 405 364.5 Z M 607.5 526.5 " />
+			</g>
+		</svg>
+
+	</div>
 
 
 
 
-	
+	<div id="svgbutton">
+		<?xml version="1.0" encoding="UTF-8"?>
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50%"
+			viewBox="0 0 810 809.999993" version="1.2" onclick="goDown()">
+			<g id="downbutton">
+				<path style=" stroke:none;fill-rule:nonzero;fill-opacity:1;"
+					d="M 0 405 C 0 628.679688 181.320312 810 405 810 C 628.679688 810 810 628.679688 810 405 C 810 181.320312 628.679688 0 405 0 C 181.320312 0 0 181.320312 0 405 Z M 607.5 283.5 L 607.5 405 L 405 567 L 202.5 405 L 202.5 283.5 L 405 445.5 Z M 607.5 283.5 " />
+			</g>
+		</svg>
+	</div>
+	</section>
+
+	<section id="section2">
+		<div class="row">
+			<div class="col-lg-12" id="textoSkillset">
+				<p>skillset</p>
+			</div>
+		</div>
+
+
+
+		<div class="row" id="skill-set">
+			<div class="col-lg-2">
+				<?xml version="1.0" encoding="UTF-8"?>
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50%"
+					viewBox="0 0 810 809.999993" version="1.2">
+					<defs>
+						<clipPath id="clip1">
+							<path d="M 45 1 L 766.292969 1 L 766.292969 809 L 45 809 Z M 45 1 " />
+						</clipPath>
+					</defs>
+					<g id="surface1">
+						<g clip-path="url(#clip1)" clip-rule="nonzero">
+							<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;"
+								d="M 762.652344 6.707031 C 759.355469 3.070312 754.617188 1.011719 749.671875 1.011719 L 62.765625 1.011719 C 57.820312 1.011719 53.082031 3.070312 49.785156 6.707031 C 46.421875 10.34375 44.773438 15.214844 45.253906 20.152344 L 107.128906 712.65625 C 107.75 719.929688 112.832031 725.96875 119.835938 728.027344 L 401.339844 808.300781 C 402.851562 808.78125 404.5 808.988281 406.148438 808.988281 C 407.796875 808.988281 409.375 808.78125 410.957031 808.300781 L 692.667969 728.027344 C 699.671875 725.96875 704.6875 719.929688 705.375 712.65625 L 767.183594 20.152344 C 767.664062 15.214844 766.015625 10.34375 762.652344 6.707031 Z M 614.515625 245.476562 L 283.765625 245.476562 L 291.664062 334.878906 L 606.546875 334.878906 L 582.921875 599.105469 L 406.082031 652.484375 L 404.363281 651.933594 L 229.582031 599.035156 L 220.035156 491.382812 L 305.675781 491.382812 L 309.382812 533.167969 L 407.109375 553.613281 L 503.050781 533.167969 L 513.285156 420.09375 L 213.648438 420.09375 L 190.367188 160.054688 L 622.136719 160.054688 Z M 614.515625 245.476562 " />
+						</g>
+					</g>
+				</svg>
+			</div>
+
+		</div>
+
+
+	</section>
+	<section id="section3">
+
+
+	</section>
+
+
+	</div>
+
+
+
+
+
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+
+
+
+
+
+
 
 
 </body>
-</html>	
+
+</html>

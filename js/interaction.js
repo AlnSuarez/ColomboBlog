@@ -1,24 +1,38 @@
 
-var flag =1;
 
-function changeColor(boton){
+var counter =1;
 
-    if(flag==1){
-        flag = 0;
-        setBlack();
+function goDown(){
+    if(counter>3){
+        counter = 3;
     }
-    else{
-        flag = 1
-        setWhite();
-    }       
+    counter++;
+    var sectionIs = "section"+counter;
+    document.getElementById(sectionIs).scrollIntoView({behavior: 'smooth'});
+    
+    console.log(counter);
+
 }
+
+function goUp(){
+    if(counter<1){
+        counter = 1;
+    }
+    counter--;
+    var sectionIs = "section"+counter;
+    document.getElementById(sectionIs).scrollIntoView({behavior: 'smooth'});
+    
+   console.log(counter);
+
+}
+
 
 
 function setBlack(){
     document.getElementById("boton").innerText = "night mode";
     document.getElementById("bloque1").style.background = "linear-gradient(180deg, rgba(255,199,188,1) 0%, rgba(249,122,59,1) 100%)";
     document.getElementById("bloque2").style.background = "linear-gradient(180deg, rgba(249,122,59,1) 0%, rgba(255,199,188,1) 100%)";
-
+    document
 }
 
 function setWhite(){
